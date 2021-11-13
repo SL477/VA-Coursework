@@ -15,3 +15,15 @@ or
 ```
 pip install -r requirements.txt
 ```
+
+Then python-dotenv:
+
+```
+conda install -c conda-forge python-dotenv
+```
+
+In the .env file setup the file:
+
+```
+SQLSERVER=SERVERNAME
+```
