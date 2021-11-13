@@ -27,3 +27,7 @@ In the .env file setup the file:
 ```
 SQLSERVER=SERVERNAME
 ```
+
+Run the SQL files:
+1. CreateDatabase.sql
+2. Run loadToSql.py

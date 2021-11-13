@@ -2,6 +2,8 @@
 import dask.dataframe as dd
 from dotenv import load_dotenv
 import os
+from sqlalchemy import create_engine
+from sqlalchemy.sql import text
 
 # Load the data
 def loadData()->dd.DataFrame:
@@ -39,3 +41,13 @@ if __name__ == '__main__':
     # Save to SQL
     df.to_sql('bikedata', db)
     print('Written to SQL')
+
+    # Run the SQL files
+    engine = create_engine(db)
+    with engine.connect() as con:
+        for f in ['CreateGenderTable.sql','PopulateGenderTable.sql','UpdateBikeDataForGender.sql','CreateBikeStationTable.sql','PopulateBikeStationData.sql','CreateUserType.sql','PopulateUserType.sql']:
+            file = open(os.path.join('sql', f))
+            query = text(f.read())
+
+            con.execute(query)
+            print('ran :', f)
