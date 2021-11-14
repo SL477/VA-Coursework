@@ -1,6 +1,6 @@
 -- Add in the gender integer column
 ALTER TABLE bikedata
-ADD gender_id INT
+ADD gender_id INT;
 
 -- Populate the gender integer column
 UPDATE bikedata 

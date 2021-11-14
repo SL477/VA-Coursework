@@ -1,10 +1,10 @@
 -- Populate userType
 INSERT INTO userType
-SELECT DISTINCT usertype FROM bikedata
+SELECT DISTINCT usertype FROM bikedata;
 
 -- Update bikeData
 ALTER TABLE bikeData
-ADD userType_id INT
+ADD userType_id INT;
 
 -- Update the bikeData table with the types
 DECLARE @i INT = (SELECT userType_id FROM userType WHERE description = 'Customer');
@@ -20,7 +20,7 @@ WHERE userType = 'Dependent'
 DECLARE @i3 INT = (SELECT userType_id FROM userType WHERE description = 'Subscriber');
 UPDATE bikeData
 SET userType_id = @i3
-WHERE userType = 'Subscriber'
+WHERE userType = 'Subscriber';
 
 -- Drop the extra column
 ALTER TABLE bikeData
