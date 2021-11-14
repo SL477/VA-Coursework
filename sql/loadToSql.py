@@ -43,11 +43,11 @@ if __name__ == '__main__':
     print('Written to SQL')
 
     # Run the SQL files
-    engine = create_engine(db)
-    with engine.connect() as con:
-        for f in ['CreateGenderTable.sql','PopulateGenderTable.sql','UpdateBikeDataForGender.sql','CreateBikeStationTable.sql','PopulateBikeStationData.sql','CreateUserType.sql','PopulateUserType.sql','CreateEventsTable.sql','PopulateEventsTable.sql','AlterColumnTypes.sql']:
-            file = open(os.path.join('sql', f))
-            query = text(file.read())
+    #engine = create_engine(db)
+    #with engine.connect() as con:
+    #    for f in ['CreateGenderTable.sql','PopulateGenderTable.sql','UpdateBikeDataForGender.sql','CreateBikeStationTable.sql','PopulateBikeStationData.sql','CreateUserType.sql','PopulateUserType.sql','CreateEventsTable.sql','PopulateEventsTable.sql','AlterColumnTypes.sql']:
+    #        file = open(os.path.join('sql', f))
+    #        query = text(file.read())
 
-            con.execute(query)
-            print('ran :', f)
+    #        con.execute(query)
+    #        print('ran :', f)
