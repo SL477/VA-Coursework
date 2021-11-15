@@ -12,3 +12,4 @@ To create the database run:
 10. CreateEventsTable.sql
 11. PopulateEventsTable.sql
 12. AlterColumnTypes.sql
+13. CreateTripsPerDay.sql
