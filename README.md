@@ -29,4 +29,8 @@ Boundary data:
 https://borders.ukdataservice.ac.uk/bookmark.html?userDirectory=4B45B36ED59AAD5CB5164069417636838%2F16406941768837787608915425172196&service=BOUNDARIES
 
 ## Transform data
-Use mergeData.R to combine the three detailed CSVs into one CSV
+1. Use mergeData.R to combine the three detailed CSVs into one CSV
+2. Run mergeCensusAgeInfo.py to combine the two census CSVs into one CSV
+
+## Jupyter-lab issue
+If you have an issue with Anaconda not allowing jupyter-lab to open in pipenv use https://stackoverflow.com/questions/58507444/how-to-add-sqlite3-to-pipenv-environment

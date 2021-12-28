@@ -2,3 +2,5 @@
 data/
 Pipfile.lock
 regionalCaseData.csv
+.ipynb_checkpoints/
+regionalCensusData.csv
