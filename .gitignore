@@ -5,3 +5,4 @@ regionalCaseData.csv
 .ipynb_checkpoints/
 regionalCensusData.csv
 ~*.tmp
+~*.twbr
