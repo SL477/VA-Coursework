@@ -28,6 +28,18 @@ http://infuse.ukdataservice.ac.uk/
 Boundary data:
 https://borders.ukdataservice.ac.uk/bookmark.html?userDirectory=4B45B36ED59AAD5CB5164069417636838%2F16406941768837787608915425172196&service=BOUNDARIES
 
+Upper tier covid data:
+https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=newCasesByPublishDate&metric=newDeaths28DaysByDeathDate&metric=newPeopleVaccinatedFirstDoseByVaccinationDate&metric=newPeopleVaccinatedSecondDoseByVaccinationDate&format=csv
+
+UTLA ages:
+https://api.coronavirus.data.gov.uk/v2/data?areaType=utla&metric=newCasesBySpecimenDateAgeDemographics&format=csv
+
+LTLA covid data:
+https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesByPublishDate&metric=newDeaths28DaysByDeathDate&metric=newPeopleVaccinatedFirstDoseByVaccinationDate&metric=newPeopleVaccinatedSecondDoseByVaccinationDate&format=csv
+
+LTLA age data:
+https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesBySpecimenDateAgeDemographics&format=csv
+
 ## Transform data
 1. Use mergeData.R to combine the three detailed CSVs into one CSV
 2. Run mergeCensusAgeInfo.py to combine the two census CSVs into one CSV
