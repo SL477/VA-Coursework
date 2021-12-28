@@ -31,6 +31,7 @@ https://borders.ukdataservice.ac.uk/bookmark.html?userDirectory=4B45B36ED59AAD5C
 ## Transform data
 1. Use mergeData.R to combine the three detailed CSVs into one CSV
 2. Run mergeCensusAgeInfo.py to combine the two census CSVs into one CSV
+3. Run py mergeRegionsCases.py to combine the two regional datasets into one CSV
 
 ## Jupyter-lab issue
 If you have an issue with Anaconda not allowing jupyter-lab to open in pipenv use https://stackoverflow.com/questions/58507444/how-to-add-sqlite3-to-pipenv-environment
