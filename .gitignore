@@ -1,3 +1,4 @@
 ~*.docx
 data/
 Pipfile.lock
+regionalCaseData.csv

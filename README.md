@@ -27,3 +27,6 @@ http://infuse.ukdataservice.ac.uk/
 
 Boundary data:
 https://borders.ukdataservice.ac.uk/bookmark.html?userDirectory=4B45B36ED59AAD5CB5164069417636838%2F16406941768837787608915425172196&service=BOUNDARIES
+
+## Transform data
+Use mergeData.R to combine the three detailed CSVs into one CSV
