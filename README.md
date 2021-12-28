@@ -15,3 +15,15 @@ https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=newDeaths28Da
 
 Regional vaccine data:
 https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=newPeopleVaccinatedFirstDoseByVaccinationDate&metric=newPeopleVaccinatedSecondDoseByVaccinationDate&format=csv
+
+Age Data:
+https://coronavirus.data.gov.uk/downloads/supplements/ONS-population_2021-08-05.csv
+
+Regional Age cases:
+https://api.coronavirus.data.gov.uk/v2/data?areaType=region&metric=newCasesBySpecimenDateAgeDemographics&format=csv
+
+Census data:
+http://infuse.ukdataservice.ac.uk/
+
+Boundary data:
+https://borders.ukdataservice.ac.uk/bookmark.html?userDirectory=4B45B36ED59AAD5CB5164069417636838%2F16406941768837787608915425172196&service=BOUNDARIES
