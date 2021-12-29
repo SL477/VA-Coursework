@@ -40,6 +40,9 @@ https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesByPubli
 LTLA age data:
 https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesBySpecimenDateAgeDemographics&format=csv
 
+Census data (district/unitary):
+https://www.nomisweb.co.uk/sources/census_2011_qs
+
 ## Transform data
 1. Use mergeData.R to combine the three detailed CSVs into one CSV
 2. Run mergeCensusAgeInfo.py to combine the two census CSVs into one CSV

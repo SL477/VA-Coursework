@@ -6,3 +6,6 @@ regionalCaseData.csv
 regionalCensusData.csv
 ~*.tmp
 ~*.twbr
+.Rhistory
+~*.pptx
+censusdata/
