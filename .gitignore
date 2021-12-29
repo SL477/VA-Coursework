@@ -10,3 +10,4 @@ regionalCensusData.csv
 ~*.pptx
 censusdata/
 districtCensusData.csv
+districtCaseAgeData.csv
