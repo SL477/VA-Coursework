@@ -50,6 +50,3 @@ https://www.nomisweb.co.uk/sources/census_2011_qs
 
 ## Jupyter-lab issue
 If you have an issue with Anaconda not allowing jupyter-lab to open in pipenv use https://stackoverflow.com/questions/58507444/how-to-add-sqlite3-to-pipenv-environment
-
-## TODO
-Method of travel to work
