@@ -50,3 +50,26 @@ https://www.nomisweb.co.uk/sources/census_2011_qs
 
 ## Jupyter-lab issue
 If you have an issue with Anaconda not allowing jupyter-lab to open in pipenv use https://stackoverflow.com/questions/58507444/how-to-add-sqlite3-to-pipenv-environment
+
+## Conda environment
+conda create -n vacw python=3.8
+conda activate vacw
+
+or
+
+```bash
+conda env create -f environment.yml python=3.8
+conda activate PODSCW2
+```
+
+To get the environment.yml file use [conda env docs](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html):
+
+```bash
+conda env export > environment.yml
+```
+
+To get the requirements.txt file for PIP use (source [StackOverflow answer](https://stackoverflow.com/questions/62885911/pip-freeze-creates-some-weird-path-instead-of-the-package-version)):
+
+```bash
+pip list --format=freeze > requirements.txt
+```
