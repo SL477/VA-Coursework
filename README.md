@@ -73,3 +73,12 @@ To get the requirements.txt file for PIP use (source [StackOverflow answer](http
 ```bash
 pip list --format=freeze > requirements.txt
 ```
+
+## TODO
+- AdFuller test - done
+- plots to work out which ARIMA model
+- ARIMA model
+- SVR model
+- Best model
+- Future forecast
+- Plot forecast on map (3d if possible)
