@@ -77,7 +77,7 @@ pip list --format=freeze > requirements.txt
 ## TODO
 - AdFuller test - done
 - plots to work out which ARIMA model - done order (0,1,1)
-- ARIMA model
+- ARIMA model - done
 - SVR model
 - Best model
 - Future forecast
