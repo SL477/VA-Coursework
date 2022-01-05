@@ -10,3 +10,5 @@ regionalCensusData.csv
 ~*.pptx
 censusdata/
 districtCaseAgeData.csv
+~*.xlsx
+rRate.xlsx
