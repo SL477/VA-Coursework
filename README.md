@@ -83,3 +83,6 @@ pip list --format=freeze > requirements.txt
 - Future forecast - irreevant
 - Plot forecast on map (3d if possible)
 - analyse age data - done
+
+# Monthly Heat maps
+![Monthly Cases](/img/monthlycases.gif)
