@@ -82,4 +82,4 @@ pip list --format=freeze > requirements.txt
 - Best model - XGB, but hardly better than a guess
 - Future forecast - irreevant
 - Plot forecast on map (3d if possible)
-- analyse age data
+- analyse age data - done
