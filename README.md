@@ -78,8 +78,8 @@ pip list --format=freeze > requirements.txt
 - AdFuller test - done
 - plots to work out which ARIMA model - done order (0,1,1)
 - ARIMA model - done
-- SVR model
-- Best model
-- Future forecast
+- XGB model - done
+- Best model - XGB, but hardly better than a guess
+- Future forecast - irreevant
 - Plot forecast on map (3d if possible)
 - analyse age data
