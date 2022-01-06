@@ -82,3 +82,4 @@ pip list --format=freeze > requirements.txt
 - Best model
 - Future forecast
 - Plot forecast on map (3d if possible)
+- analyse age data
