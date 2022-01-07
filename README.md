@@ -1,5 +1,4 @@
 # VA - Coursework
-
 ## Get Data
 UK wide data:
 https://coronavirus.data.gov.uk/api/v1/data?filters=areaType=overview&structure=%7B%22areaType%22:%22areaType%22,%22areaName%22:%22areaName%22,%22areaCode%22:%22areaCode%22,%22date%22:%22date%22,%22newCasesByPublishDate%22:%22newCasesByPublishDate%22,%22cumCasesByPublishDate%22:%22cumCasesByPublishDate%22%7D&format=csv
@@ -74,15 +73,7 @@ To get the requirements.txt file for PIP use (source [StackOverflow answer](http
 pip list --format=freeze > requirements.txt
 ```
 
-## TODO
-- AdFuller test - done
-- plots to work out which ARIMA model - done order (0,1,1)
-- ARIMA model - done
-- XGB model - done
-- Best model - XGB, but hardly better than a guess
-- Future forecast - irreevant
-- Plot forecast on map (3d if possible)
-- analyse age data - done
-
 # Monthly Heat maps
-![Monthly Cases](/img/monthlycases.gif)
+| Monthly Cases | Monthly Death Rate | Monthly 1st Vaccine | Monthly 2nd Vaccine |
+| --- | --- | --- | --- |
+| ![Monthly Cases](/img/monthlycases.gif) | ![Monthly Death Rate](/img/monthlyDeathRate.gif) | ![Monthly 1st vaccine dose](/img/monthly1stVaccineDose.gif) | ![Monthly 2nd vaccine dose](/img/monthly2ndVaccineDose.gif) |
