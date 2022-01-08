@@ -79,6 +79,5 @@ pip list --format=freeze > requirements.txt
 | ![Monthly Cases](/img/monthlycases.gif) | ![Monthly Death Rate](/img/monthlyDeathRate.gif) | ![Monthly 1st vaccine dose](/img/monthly1stVaccineDose.gif) | ![Monthly 2nd vaccine dose](/img/monthly2ndVaccineDose.gif) |
 
 # TODO
-- Tableau story
 - Picture gallery
 - Publish data folder and ignore the rubbish in it
