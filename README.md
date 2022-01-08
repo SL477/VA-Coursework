@@ -44,6 +44,5 @@ pip list --format=freeze > requirements.txt
 
 # TODO
 - Push COVID branch to main
-- Revisit process
 - Picture gallery
 - More pictures in README file
