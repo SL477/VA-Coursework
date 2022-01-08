@@ -41,8 +41,3 @@ pip list --format=freeze > requirements.txt
 | Monthly Cases | Monthly Death Rate | Monthly 1st Vaccine | Monthly 2nd Vaccine |
 | --- | --- | --- | --- |
 | ![Monthly Cases](/img/monthlycases.gif) | ![Monthly Death Rate](/img/monthlyDeathRate.gif) | ![Monthly 1st vaccine dose](/img/monthly1stVaccineDose.gif) | ![Monthly 2nd vaccine dose](/img/monthly2ndVaccineDose.gif) |
-
-## TODO
-- Push COVID branch to main
-- Picture gallery
-- More pictures in README file
