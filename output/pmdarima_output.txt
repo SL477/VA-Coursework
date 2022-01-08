@@ -1,0 +1,242 @@
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=11353.870, Time=0.70 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=11527.173, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=11402.422, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=11348.943, Time=0.18 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=11525.783, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=11350.663, Time=0.26 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=11350.614, Time=0.27 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=inf, Time=0.74 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=11349.994, Time=0.03 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0] intercept
+Total fit time: 2.256 seconds
+0
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  666
+Model:               SARIMAX(0, 1, 1)   Log Likelihood               -5671.471
+Date:                Wed, 05 Jan 2022   AIC                          11348.943
+Time:                        15:22:28   BIC                          11362.442
+Sample:                             0   HQIC                         11354.173
+                                - 666                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept     36.9090     28.546      1.293      0.196     -19.041      92.859
+ma.L1         -0.5574      0.011    -49.257      0.000      -0.580      -0.535
+sigma2      1.508e+06   1.81e+04     83.162      0.000    1.47e+06    1.54e+06
+===================================================================================
+Ljung-Box (L1) (Q):                   0.11   Jarque-Bera (JB):            142279.89
+Prob(Q):                              0.74   Prob(JB):                         0.00
+Heteroskedasticity (H):               1.04   Skew:                             4.66
+Prob(H) (two-sided):                  0.75   Kurtosis:                        74.05
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=11075.486, Time=0.58 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=11171.776, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=11088.278, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=11069.942, Time=0.20 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=11170.539, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=11071.691, Time=0.28 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=11071.706, Time=0.24 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=11073.644, Time=0.53 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=11070.408, Time=0.03 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0] intercept
+Total fit time: 1.942 seconds
+1
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  659
+Model:               SARIMAX(0, 1, 1)   Log Likelihood               -5531.971
+Date:                Wed, 05 Jan 2022   AIC                          11069.942
+Time:                        15:22:30   BIC                          11083.410
+Sample:                             0   HQIC                         11075.163
+                                - 659                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept     38.0400     34.961      1.088      0.277     -30.482     106.562
+ma.L1         -0.4243      0.010    -43.190      0.000      -0.444      -0.405
+sigma2       1.18e+06   1.44e+04     82.157      0.000    1.15e+06    1.21e+06
+===================================================================================
+Ljung-Box (L1) (Q):                   0.05   Jarque-Bera (JB):            154255.36
+Prob(Q):                              0.83   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.69   Skew:                             4.34
+Prob(H) (two-sided):                  0.01   Kurtosis:                        77.51
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=8324.294, Time=0.53 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=8600.611, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=8382.476, Time=0.08 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=8330.986, Time=0.16 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=8598.835, Time=0.01 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=8322.875, Time=0.42 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=8321.475, Time=0.37 sec
+ ARIMA(0,1,3)(0,0,0)[0] intercept   : AIC=8323.396, Time=0.51 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=8321.486, Time=0.29 sec
+ ARIMA(1,1,3)(0,0,0)[0] intercept   : AIC=8323.913, Time=0.47 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=8321.076, Time=0.12 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=8330.750, Time=0.07 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=8322.536, Time=0.12 sec
+ ARIMA(0,1,3)(0,0,0)[0]             : AIC=8322.991, Time=0.17 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=8321.103, Time=0.12 sec
+ ARIMA(1,1,3)(0,0,0)[0]             : AIC=8323.538, Time=0.27 sec
+
+Best model:  ARIMA(0,1,2)(0,0,0)[0]          
+Total fit time: 3.744 seconds
+2
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  657
+Model:               SARIMAX(0, 1, 2)   Log Likelihood               -4157.538
+Date:                Wed, 05 Jan 2022   AIC                           8321.076
+Time:                        15:22:34   BIC                           8334.535
+Sample:                             0   HQIC                          8326.294
+                                - 657                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ma.L1         -0.7306      0.020    -36.390      0.000      -0.770      -0.691
+ma.L2          0.1221      0.016      7.536      0.000       0.090       0.154
+sigma2      1.871e+04    283.349     66.023      0.000    1.82e+04    1.93e+04
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):             17832.85
+Prob(Q):                              0.96   Prob(JB):                         0.00
+Heteroskedasticity (H):               1.34   Skew:                             2.67
+Prob(H) (two-sided):                  0.03   Kurtosis:                        27.98
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+Performing stepwise search to minimize aic
+ ARIMA(2,2,2)(0,0,0)[0]             : AIC=11164.445, Time=0.66 sec
+ ARIMA(0,2,0)(0,0,0)[0]             : AIC=11957.039, Time=0.01 sec
+ ARIMA(1,2,0)(0,0,0)[0]             : AIC=11647.849, Time=0.02 sec
+ ARIMA(0,2,1)(0,0,0)[0]             : AIC=inf, Time=0.12 sec
+ ARIMA(1,2,2)(0,0,0)[0]             : AIC=11162.510, Time=0.32 sec
+ ARIMA(0,2,2)(0,0,0)[0]             : AIC=11168.277, Time=0.29 sec
+ ARIMA(1,2,1)(0,0,0)[0]             : AIC=inf, Time=0.26 sec
+ ARIMA(1,2,3)(0,0,0)[0]             : AIC=11165.957, Time=0.37 sec
+ ARIMA(0,2,3)(0,0,0)[0]             : AIC=11162.560, Time=0.28 sec
+ ARIMA(2,2,1)(0,0,0)[0]             : AIC=inf, Time=0.33 sec
+ ARIMA(2,2,3)(0,0,0)[0]             : AIC=11166.153, Time=0.53 sec
+ ARIMA(1,2,2)(0,0,0)[0] intercept   : AIC=11163.941, Time=0.83 sec
+
+Best model:  ARIMA(1,2,2)(0,0,0)[0]          
+Total fit time: 4.039 seconds
+3
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  664
+Model:               SARIMAX(1, 2, 2)   Log Likelihood               -5577.255
+Date:                Wed, 05 Jan 2022   AIC                          11162.510
+Time:                        15:22:38   BIC                          11180.491
+Sample:                             0   HQIC                         11169.478
+                                - 664                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ar.L1          0.1770      0.029      6.065      0.000       0.120       0.234
+ma.L1         -1.6764      0.028    -59.019      0.000      -1.732      -1.621
+ma.L2          0.7151      0.028     25.149      0.000       0.659       0.771
+sigma2      1.213e+06   9398.592    129.050      0.000    1.19e+06    1.23e+06
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):            296743.30
+Prob(Q):                              0.98   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.58   Skew:                             5.48
+Prob(H) (two-sided):                  0.00   Kurtosis:                       106.14
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=11512.264, Time=0.27 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=11684.342, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=11570.054, Time=0.04 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=11509.647, Time=0.18 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=11682.941, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=11511.637, Time=0.26 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=11511.616, Time=0.29 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=11511.845, Time=0.27 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=11510.762, Time=0.04 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0] intercept
+Total fit time: 1.380 seconds
+4
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  667
+Model:               SARIMAX(0, 1, 1)   Log Likelihood               -5751.823
+Date:                Wed, 05 Jan 2022   AIC                          11509.647
+Time:                        15:22:39   BIC                          11523.150
+Sample:                             0   HQIC                         11514.879
+                                - 667                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept     40.6510     30.890      1.316      0.188     -19.892     101.194
+ma.L1         -0.5614      0.013    -41.771      0.000      -0.588      -0.535
+sigma2      1.881e+06   2.65e+04     71.089      0.000    1.83e+06    1.93e+06
+===================================================================================
+Ljung-Box (L1) (Q):                   0.00   Jarque-Bera (JB):             71692.64
+Prob(Q):                              0.98   Prob(JB):                         0.00
+Heteroskedasticity (H):               1.30   Skew:                             4.04
+Prob(H) (two-sided):                  0.05   Kurtosis:                        53.18
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+Performing stepwise search to minimize aic
+ ARIMA(2,1,2)(0,0,0)[0] intercept   : AIC=10319.263, Time=0.72 sec
+ ARIMA(0,1,0)(0,0,0)[0] intercept   : AIC=10528.690, Time=0.02 sec
+ ARIMA(1,1,0)(0,0,0)[0] intercept   : AIC=10375.572, Time=0.05 sec
+ ARIMA(0,1,1)(0,0,0)[0] intercept   : AIC=10313.761, Time=0.17 sec
+ ARIMA(0,1,0)(0,0,0)[0]             : AIC=10526.948, Time=0.01 sec
+ ARIMA(1,1,1)(0,0,0)[0] intercept   : AIC=10315.296, Time=0.24 sec
+ ARIMA(0,1,2)(0,0,0)[0] intercept   : AIC=10315.284, Time=0.25 sec
+ ARIMA(1,1,2)(0,0,0)[0] intercept   : AIC=10317.256, Time=0.70 sec
+ ARIMA(0,1,1)(0,0,0)[0]             : AIC=10313.661, Time=0.08 sec
+ ARIMA(1,1,1)(0,0,0)[0]             : AIC=10315.204, Time=0.05 sec
+ ARIMA(0,1,2)(0,0,0)[0]             : AIC=10315.177, Time=0.05 sec
+ ARIMA(1,1,0)(0,0,0)[0]             : AIC=10374.218, Time=0.03 sec
+ ARIMA(1,1,2)(0,0,0)[0]             : AIC=10317.647, Time=0.10 sec
+
+Best model:  ARIMA(0,1,1)(0,0,0)[0]          
+Total fit time: 2.484 seconds
+5
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                      y   No. Observations:                  658
+Model:               SARIMAX(0, 1, 1)   Log Likelihood               -5154.830
+Date:                Wed, 05 Jan 2022   AIC                          10313.661
+Time:                        15:22:42   BIC                          10322.636
+Sample:                             0   HQIC                         10317.140
+                                - 658                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+ma.L1         -0.6073      0.008    -72.178      0.000      -0.624      -0.591
+sigma2      3.822e+05   2706.934    141.190      0.000    3.77e+05    3.87e+05
+===================================================================================
+Ljung-Box (L1) (Q):                   0.30   Jarque-Bera (JB):            405738.86
+Prob(Q):                              0.58   Prob(JB):                         0.00
+Heteroskedasticity (H):               0.33   Skew:                             7.46
+Prob(H) (two-sided):                  0.00   Kurtosis:                       123.83
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

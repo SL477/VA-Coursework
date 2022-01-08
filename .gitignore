@@ -1,5 +1,11 @@
-data/
-.ipynb_checkpoints/
 ~*.docx
-dask-worker-space/
-.env
+Pipfile.lock
+.ipynb_checkpoints/
+~*.tmp
+~*.twbr
+.Rhistory
+~*.pptx
+censusdata/
+~*.xlsx
+rRate.xlsx
+img/monthlycasesold.gif
