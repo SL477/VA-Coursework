@@ -17,14 +17,6 @@
 | LTLA age data | https://api.coronavirus.data.gov.uk/v2/data?areaType=ltla&metric=newCasesBySpecimenDateAgeDemographics&format=csv |
 | Census data (district/unitary) | https://www.nomisweb.co.uk/sources/census_2011_qs |
 
-## Transform data
-1. Use mergeData.R to combine the three detailed CSVs into one CSV
-2. Run mergeCensusAgeInfo.py to combine the two census CSVs into one CSV
-3. Run py mergeRegionsCases.py to combine the two regional datasets into one CSV
-
-## Jupyter-lab issue
-If you have an issue with Anaconda not allowing jupyter-lab to open in pipenv use https://stackoverflow.com/questions/58507444/how-to-add-sqlite3-to-pipenv-environment
-
 ## Conda environment
 As we are using Geopandas we are using Anaconda to manage the environment. To create it from the environment file use:
 
@@ -60,3 +52,4 @@ pip list --format=freeze > requirements.txt
 - Make sure notebook headings are ok
 - Picture gallery
 - Publish data folder and ignore the rubbish in it
+- More pictures in README file
