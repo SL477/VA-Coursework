@@ -1,15 +1,11 @@
 ~*.docx
-data/
 Pipfile.lock
-regionalCaseData.csv
 .ipynb_checkpoints/
-regionalCensusData.csv
 ~*.tmp
 ~*.twbr
 .Rhistory
 ~*.pptx
 censusdata/
-districtCaseAgeData.csv
 ~*.xlsx
 rRate.xlsx
 img/monthlycasesold.gif

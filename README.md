@@ -45,11 +45,8 @@ pip list --format=freeze > requirements.txt
 # TODO
 - Reference in Harvard style
 - Push COVID branch to main
-- Revisit Problem Statement
 - Revisit Properties of the data
 - Revisit approach
 - Revisit Reflection
-- Make sure notebook headings are ok
 - Picture gallery
-- Publish data folder and ignore the rubbish in it
 - More pictures in README file
