@@ -9,3 +9,5 @@ censusdata/
 ~*.xlsx
 rRate.xlsx
 img/monthlycasesold.gif
+dask-worker-space/
+ssrsReports/
